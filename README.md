@@ -9,3 +9,4 @@
 - [Item 19: Use interfaces only to define types](chapter-4.md#item-19-use-interfaces-only-to-define-types)
 - [Item 20: Prefer class hierarchies to tagged classes](chapter-4.md#item-20-prefer-class-hierarchies-to-tagged-classes)
 - [Item 21: Use function objects to represent strategies](chapter-4.md#item-21-use-function-objects-to-represent-strategies)
+- [Item 22: Favor static member classes over nonstatic](chapter-4.md#item-22-favor-static-member-classes-over-nonstatic)
