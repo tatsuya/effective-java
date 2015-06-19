@@ -39,3 +39,7 @@ While interfaces are not permitted to contain method implementations, using inte
 ## Item 19: Use interfaces only to define types
 
 Interfaces should be used only to define types. They should not be used to export constants.
+
+## Item 20: Prefer class hierarchies to tagged classes
+
+Tagged classes are seldom appropriate. If you’re tempted to write a class with an explicit tag field, think about whether the tag could be eliminated and the class replaced by a hierarchy. When you encounter an existing class with a tag field, consider refactoring it into a hierarchy.
