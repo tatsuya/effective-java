@@ -16,3 +16,4 @@
 ## [Chapter 5: Generics](chapter-5.md)
 
 - [Item 23: Don’t use raw types in new code](chapter-5.md#item-23-don’t-use-raw-types-in-new-code)
+- [Item 24: Eliminate unchecked warnings](chapter-5.md#item-24-eliminate-unchecked-warnings)
