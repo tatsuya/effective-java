@@ -19,3 +19,4 @@
 - [Item 24: Eliminate unchecked warnings](chapter-5.md#item-24-eliminate-unchecked-warnings)
 - [Item 25: Prefer lists to arrays](chapter-5.md#item-25-prefer-lists-to-arrays)
 - [Item 26: Favor generic types](chapter-5.md#item-26-favor-generic-types)
+- [Item 27: Favor generic methods](chapter-5.md#item-27-favor-generic-methods)
