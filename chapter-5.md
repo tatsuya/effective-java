@@ -19,3 +19,7 @@ Generic types are safer and easier to use than types that require casts in clien
 ## Item 27: Favor generic methods
 
 Generic methods, like generic types, are safer and easier to use than methods that require their clients to cast input parameters and return values. Like types, you should make sure that your new methods can be used without casts, which will often mean making them generic. And like types, you should generify your existing methods to make life easier for new users without breaking existing clients.
+
+## Item 28: Use bounded wildcards to increase API flexibility
+
+Using wildcard types in your APIs, while tricky, makes the APIs far more flexible. If you write a library that will be widely used, the proper use of wildcard types should be considered mandatory. Remember the basic rule: producer-extends, consumer-super (PECS). And remember that all comparables and comparators are consumers.

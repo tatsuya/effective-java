@@ -20,3 +20,4 @@
 - [Item 25: Prefer lists to arrays](chapter-5.md#item-25-prefer-lists-to-arrays)
 - [Item 26: Favor generic types](chapter-5.md#item-26-favor-generic-types)
 - [Item 27: Favor generic methods](chapter-5.md#item-27-favor-generic-methods)
+- [Item 28: Use bounded wildcards to increase API flexibility](chapter-5.md#item-28-use-bounded-wildcards-to-increase-api-flexibility)
