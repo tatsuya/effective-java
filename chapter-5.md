@@ -23,3 +23,7 @@ Generic methods, like generic types, are safer and easier to use than methods th
 ## Item 28: Use bounded wildcards to increase API flexibility
 
 Using wildcard types in your APIs, while tricky, makes the APIs far more flexible. If you write a library that will be widely used, the proper use of wildcard types should be considered mandatory. Remember the basic rule: producer-extends, consumer-super (PECS). And remember that all comparables and comparators are consumers.
+
+## Item 29: Consider type safe heterogeneous containers
+
+The normal use of generics, exemplified by the collections APIs, restricts you to a fixed number of type parameters per container. You can get around this restriction by placing the type parameter on the key rather than the container. You can use Class objects as keys for such typesafe heterogeneous containers. A Class object used in this fashion is called a type token. You can also use a custom key type. For example, you could have a DatabaseRow type repre- senting a database row (the container), and a generic type Column<T> as its key.

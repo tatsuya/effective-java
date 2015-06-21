@@ -21,3 +21,4 @@
 - [Item 26: Favor generic types](chapter-5.md#item-26-favor-generic-types)
 - [Item 27: Favor generic methods](chapter-5.md#item-27-favor-generic-methods)
 - [Item 28: Use bounded wildcards to increase API flexibility](chapter-5.md#item-28-use-bounded-wildcards-to-increase-api-flexibility)
+- [Item 29: Consider type safe heterogeneous containers](chapter-5.md#item-29-consider-type-safe-heterogeneous-containers)
