@@ -24,3 +24,5 @@
 - [Item 29: Consider type safe heterogeneous containers](chapter-5.md#item-29-consider-type-safe-heterogeneous-containers)
 
 ## [Chapter 8: General Programming](chapter-8.md)
+
+- [Item 45: Minimize the scope of local variables](chapter-8.md#item-45-minimize-the-scope-of-local-variables)
