@@ -48,3 +48,7 @@ Reflection is a powerful facility that is required for certain sophisticated sys
 ## Item 54: Use native methods judiciously
 
 Think twice before using native methods. Rarely, if ever, use them for improved performance. If you must use native methods to access low-level resources or legacy libraries, use as little native code as possible and test it thoroughly. A single bug in the native code can corrupt your entire application.
+
+## Item 55: Optimize judiciously
+
+Do not strive to write fast programs—strive to write good ones; speed will follow. Do think about performance issues while you’re designing systems and especially while you’re designing APIs, wire-level protocols, and persistent data formats. When you’ve finished building the system, measure its performance. If it’s fast enough, you’re done. If not, locate the source of the problems with the aid of a profiler, and go to work optimizing the relevant parts of the system. The first step is to examine your choice of algorithms: no amount of low-level optimization can make up for a poor choice of algorithm. Repeat this process as necessary, measuring the performance after every change, until you’re satisfied.
