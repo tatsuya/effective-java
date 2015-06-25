@@ -16,3 +16,7 @@ The for-each loop provides compelling advantages over the traditional `for` loop
 1. **Filtering** — If you need to traverse a collection and remove selected elements, then you need to use an explicit iterator so that you can call its remove method.
 2. **Transforming** — If you need to traverse a list or array and replace some or all of the values of its elements, then you need the list iterator or array index in order to set the value of an element.
 3. **Parallel iteration** — If you need to traverse multiple collections in parallel, then you need explicit control over the iterator or index variable, so that all iterators or index variables can be advanced in lockstep.
+
+## Item 47: Know and use the libraries
+
+Don’t reinvent the wheel. By using a standard library, you take advantage of the knowledge of the experts who wrote it and the experience of those who used it before you.
