@@ -30,3 +30,4 @@
 - [Item 47: Know and use the libraries](chapter-8.md#item-47-know-and-use-the-libraries)
 - [Item 48: Avoid float and double if exact answers are required](chapter-8.md#item-48-avoid-float-and-double-if-exact-answers-are-required)
 - [Item 49: Prefer primitive types to boxed primitives](chapter-8.md#item-49-prefer-primitive-types-to-boxed-primitives)
+- [Item 50: Avoid strings where other types are more appropriate](chapter-8.md#item-50-avoid-strings-where-other-types-are-more-appropriate)
