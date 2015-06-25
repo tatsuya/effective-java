@@ -40,3 +40,9 @@ Don’t use the string concatenation operator to combine more than a few strings
 ## Item 52: Refer to objects by their interfaces
 
 If appropriate interface types exist, then parameters, return values, variables, and fields should all be declared using interface types. If you get into the habit of using interfaces as types, your program will be much more flexible.
+
+## Item 53: Prefer interfaces to reflection
+
+Reflection is a powerful facility that is required for certain sophisticated system programming tasks, but it has many disadvantages. If you are writing a program that has to work with classes unknown at compile time, you should, if at all possible, use reflection only to instantiate objects, and access the objects using some interface or superclass that is known at compile time.
+
+
