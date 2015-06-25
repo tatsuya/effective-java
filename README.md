@@ -31,3 +31,4 @@
 - [Item 48: Avoid float and double if exact answers are required](chapter-8.md#item-48-avoid-float-and-double-if-exact-answers-are-required)
 - [Item 49: Prefer primitive types to boxed primitives](chapter-8.md#item-49-prefer-primitive-types-to-boxed-primitives)
 - [Item 50: Avoid strings where other types are more appropriate](chapter-8.md#item-50-avoid-strings-where-other-types-are-more-appropriate)
+- [Item 51: Beware the performance of string concatenation](chapter-8.md#item-51-beware-the-performance-of-string-concatenation)
