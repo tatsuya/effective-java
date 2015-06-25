@@ -34,3 +34,4 @@
 - [Item 51: Beware the performance of string concatenation](chapter-8.md#item-51-beware-the-performance-of-string-concatenation)
 - [Item 52: Refer to objects by their interfaces](chapter-8.md#item-52-refer-to-objects-by-their-interfaces)
 - [Item 53: Prefer interfaces to reflection](chapter-8.md#item-53-prefer-interfaces-to-reflection)
+- [Item 54: Use native methods judiciously](chapter-8.md#item-54-use-native-methods-judiciously)
