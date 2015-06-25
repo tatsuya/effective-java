@@ -29,3 +29,4 @@
 - [Item 46: Prefer for-each loops to traditional for loops](chapter-8.md#item-46-prefer-for-each-loops-to-traditional-for-loops)
 - [Item 47: Know and use the libraries](chapter-8.md#item-47-know-and-use-the-libraries)
 - [Item 48: Avoid float and double if exact answers are required](chapter-8.md#item-48-avoid-float-and-double-if-exact-answers-are-required)
+- [Item 49: Prefer primitive types to boxed primitives](chapter-8.md#item-49-prefer-primitive-types-to-boxed-primitives)
