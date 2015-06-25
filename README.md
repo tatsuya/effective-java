@@ -32,3 +32,4 @@
 - [Item 49: Prefer primitive types to boxed primitives](chapter-8.md#item-49-prefer-primitive-types-to-boxed-primitives)
 - [Item 50: Avoid strings where other types are more appropriate](chapter-8.md#item-50-avoid-strings-where-other-types-are-more-appropriate)
 - [Item 51: Beware the performance of string concatenation](chapter-8.md#item-51-beware-the-performance-of-string-concatenation)
+- [Item 52: Refer to objects by their interfaces](chapter-8.md#item-52-refer-to-objects-by-their-interfaces)

@@ -36,3 +36,7 @@ Avoid the natural tendency to represent objects as strings when better data type
 ## Item 51: Beware the performance of string concatenation
 
 Don’t use the string concatenation operator to combine more than a few strings unless performance is irrelevant. Use `StringBuilder`’s append method instead. Alternatively, use a character array, or process the strings one at a time instead of combining them.
+
+## Item 52: Refer to objects by their interfaces
+
+If appropriate interface types exist, then parameters, return values, variables, and fields should all be declared using interface types. If you get into the habit of using interfaces as types, your program will be much more flexible.
