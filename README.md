@@ -28,3 +28,4 @@
 - [Item 45: Minimize the scope of local variables](chapter-8.md#item-45-minimize-the-scope-of-local-variables)
 - [Item 46: Prefer for-each loops to traditional for loops](chapter-8.md#item-46-prefer-for-each-loops-to-traditional-for-loops)
 - [Item 47: Know and use the libraries](chapter-8.md#item-47-know-and-use-the-libraries)
+- [Item 48: Avoid float and double if exact answers are required](chapter-8.md#item-48-avoid-float-and-double-if-exact-answers-are-required)
