@@ -37,3 +37,7 @@
 - [Item 54: Use native methods judiciously](chapter-8.md#item-54-use-native-methods-judiciously)
 - [Item 55: Optimize judiciously](chapter-8.md#item-55-optimize-judiciously)
 - [Item 56: Adhere to generally accepted naming conventions](chapter-8.md#item-56-adhere-to-generally-accepted-naming-conventions)
+
+## [Chapter 9: Exceptions](chapter-9.md)
+
+- [Item 57: Use exceptions only for exceptional conditions](chapter-9.md#item-57-use-exceptions-only-for-exceptional-conditions)
