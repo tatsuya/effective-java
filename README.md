@@ -41,3 +41,4 @@
 ## [Chapter 9: Exceptions](chapter-9.md)
 
 - [Item 57: Use exceptions only for exceptional conditions](chapter-9.md#item-57-use-exceptions-only-for-exceptional-conditions)
+- [Item 58: Use checked exceptions for recoverable conditions and runtime exceptions for programming errors](chapter-9.md#item-58-use-checked-exceptions-for-recoverable-conditions-and-runtime-exceptions-for-programming-errors)
