@@ -52,3 +52,7 @@ Think twice before using native methods. Rarely, if ever, use them for improved 
 ## Item 55: Optimize judiciously
 
 Do not strive to write fast programs—strive to write good ones; speed will follow. Do think about performance issues while you’re designing systems and especially while you’re designing APIs, wire-level protocols, and persistent data formats. When you’ve finished building the system, measure its performance. If it’s fast enough, you’re done. If not, locate the source of the problems with the aid of a profiler, and go to work optimizing the relevant parts of the system. The first step is to examine your choice of algorithms: no amount of low-level optimization can make up for a poor choice of algorithm. Repeat this process as necessary, measuring the performance after every change, until you’re satisfied.
+
+## Item 56: Adhere to generally accepted naming conventions
+
+Internalize the standard naming conventions and learn to use them as second nature.
