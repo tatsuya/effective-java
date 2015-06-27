@@ -25,6 +25,10 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 28: Use bounded wildcards to increase API flexibility](chapter-5.md#item-28-use-bounded-wildcards-to-increase-api-flexibility)
 - [Item 29: Consider type safe heterogeneous containers](chapter-5.md#item-29-consider-type-safe-heterogeneous-containers)
 
+## [Chapter 6: Enums and Annotations](chapter-6.md)
+
+- [Item 30: Use enums instead of int constants](chapter-6.md#item-30-use-enums-instead-of-int-constants)
+
 ## [Chapter 8: General Programming](chapter-8.md)
 
 - [Item 45: Minimize the scope of local variables](chapter-8.md#item-45-minimize-the-scope-of-local-variables)
