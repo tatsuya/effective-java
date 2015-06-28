@@ -11,3 +11,7 @@ Most programmers will have no use for this method. It is designed for use by gen
 ## Item 32: Use EnumSet instead of bit fields
 
 Just because an enumerated type will be used in sets, there is no reason to represent it with bit fields. The `EnumSet` class combines the conciseness and performance of bit fields with all the many advantages of enum types described in [Item 30](chapter-6.md#item-30-use-enums-instead-of-int-constants). The one real disadvantage of `EnumSet` is that it is not, as of release 1.6, possible to create an immutable `EnumSet`, but this will likely be remedied in an upcoming release. In the meantime, you can wrap an `EnumSet` with `Collections.unmodifiableSet`, but conciseness and performance will suffer.
+
+## Item 33: Use EnumMap instead of ordinal indexing
+
+It is rarely appropriate to use ordinals to index arrays: use `EnumMap` instead.
