@@ -39,6 +39,7 @@ Summarized version of Effective Java 2nd Edition.
 ## [Chapter 7: Methods](chapter-7.md)
 
 - [Item 38: Check parameters for validity](chapter-7.md#item-38-check-parameters-for-validity)
+- [Item 39: Make defensive copies when needed](chapter-7.md#item-39-make-defensive-copies-when-needed)
 
 ## [Chapter 8: General Programming](chapter-8.md)
 
