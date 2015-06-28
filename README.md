@@ -33,6 +33,7 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 33: Use EnumMap instead of ordinal indexing](chapter-6.md#item-33-use-enummap-instead-of-ordinal-indexing)
 - [Item 34: Emulate extensible enums with interfaces](chapter-6.md#item-34-emulate-extensible-enums-with-interfaces)
 - [Item 35: Prefer annotations to naming patterns](chapter-6.md#item-35-prefer-annotations-to-naming-patterns)
+- [Item 36: Consistently use the Override annotation](chapter-6.md#item-36-consistently-use-the-override-annotation)
 
 ## [Chapter 8: General Programming](chapter-8.md)
 
