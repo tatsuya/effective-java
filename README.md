@@ -36,6 +36,10 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 36: Consistently use the Override annotation](chapter-6.md#item-36-consistently-use-the-override-annotation)
 - [Item 37: Use marker interfaces to define types](chapter-6.md#item-37-use-marker-interfaces-to-define-types)
 
+## [Chapter 7: Methods](chapter-7.md)
+
+- [Item 38: Check parameters for validity](chapter-7.md#item-38-check-parameters-for-validity)
+
 ## [Chapter 8: General Programming](chapter-8.md)
 
 - [Item 45: Minimize the scope of local variables](chapter-8.md#item-45-minimize-the-scope-of-local-variables)
