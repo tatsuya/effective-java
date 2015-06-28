@@ -31,6 +31,7 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 31: Use instance fields instead of ordinals](chapter-6.md#item-31-use-instance-fields-instead-of-ordinals)
 - [Item 32: Use EnumSet instead of bit fields](chapter-6.md#item-32-use-enumset-instead-of-bit-fields)
 - [Item 33: Use EnumMap instead of ordinal indexing](chapter-6.md#item-33-use-enummap-instead-of-ordinal-indexing)
+- [Item 34: Emulate extensible enums with interfaces](chapter-6.md#item-34-emulate-extensible-enums-with-interfaces)
 
 ## [Chapter 8: General Programming](chapter-8.md)
 

@@ -15,3 +15,7 @@ Just because an enumerated type will be used in sets, there is no reason to repr
 ## Item 33: Use EnumMap instead of ordinal indexing
 
 It is rarely appropriate to use ordinals to index arrays: use `EnumMap` instead.
+
+## Item 34: Emulate extensible enums with interfaces
+
+While you cannot write an extensible enum type, you can emulate it by writing an interface to go with a basic enum type that implements the interface. This allows clients to write their own enums that implement the interface. These enums can then be used wherever the basic enum type can be used, assuming APIs are written in terms of the interface.
