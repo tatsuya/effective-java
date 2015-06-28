@@ -28,6 +28,7 @@ Summarized version of Effective Java 2nd Edition.
 ## [Chapter 6: Enums and Annotations](chapter-6.md)
 
 - [Item 30: Use enums instead of int constants](chapter-6.md#item-30-use-enums-instead-of-int-constants)
+- [Item 31: Use instance fields instead of ordinals](chapter-6.md#item-31-use-instance-fields-instead-of-ordinals)
 
 ## [Chapter 8: General Programming](chapter-8.md)
 
