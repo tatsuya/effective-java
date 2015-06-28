@@ -27,3 +27,7 @@ If you write a tool that requires programmers to add information to source files
 ## Item 36: Consistently use the Override annotation
 
 The compiler can protect you from a great many errors if you use the `Override` annotation on every method declaration that you believe to override a supertype declaration.
+
+## Item 37: Use marker interfaces to define types
+
+Marker interfaces and marker annotations both have their uses. If you want to define a type that does not have any new methods associated with it, a marker interface is the way to go. If you want to mark program elements other than classes and interfaces, to allow for the possibility of adding more information to the marker in the future, or to fit the marker into a framework that already makes heavy use of annotation types, then a marker annotation is the correct choice. If you find yourself writing a marker annotation type whose target is `ElementType.TYPE`, take the time to figure out whether it really should be an annotation type, or whether a marker interface would be more appropriate.
