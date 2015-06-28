@@ -19,3 +19,7 @@ It is rarely appropriate to use ordinals to index arrays: use `EnumMap` instead.
 ## Item 34: Emulate extensible enums with interfaces
 
 While you cannot write an extensible enum type, you can emulate it by writing an interface to go with a basic enum type that implements the interface. This allows clients to write their own enums that implement the interface. These enums can then be used wherever the basic enum type can be used, assuming APIs are written in terms of the interface.
+
+## Item 35: Prefer annotations to naming patterns
+
+If you write a tool that requires programmers to add information to source files, define an appropriate set of annotation types. There is simply no reason to use naming patterns now that we have annotations. That said, with the exception of toolsmiths, most programmers will have no need to define annotation types. All programmers should, however, use the pre- defined annotation types provided by the Java platform (Items 36 and Item 24).
