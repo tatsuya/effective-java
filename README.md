@@ -40,6 +40,8 @@ Summarized version of Effective Java 2nd Edition.
 
 - [Item 38: Check parameters for validity](chapter-7.md#item-38-check-parameters-for-validity)
 - [Item 39: Make defensive copies when needed](chapter-7.md#item-39-make-defensive-copies-when-needed)
+- [Item 40: Design method signatures carefully](chapter-7.md#tem-40-design-method-signatures-carefully)
+- [Item 41: Use overloading judiciously](chapter-7.md#item-41-use-overloading-judiciously)
 
 ## [Chapter 8: General Programming](chapter-8.md)
 

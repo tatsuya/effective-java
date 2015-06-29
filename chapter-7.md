@@ -7,3 +7,15 @@ Each time you write a method or constructor, you should think about what restric
 ## Item 39: Make defensive copies when needed
 
 If a class has mutable components that it gets from or returns to its clients, the class must defensively copy these components. If the cost of the copy would be prohibitive and the class trusts its clients not to modify the compo- nents inappropriately, then the defensive copy may be replaced by documentation outlining the client’s responsibility not to modify the affected components.
+
+## Item 40: Design method signatures carefully
+
+- Choose method names carefully. Names should always obey the standard naming conventions ([Item 56](chapter-8.md#item-56-adhere-to-generally-accepted-naming-conventions))).
+- Don’t go overboard in providing convenience methods. Consider providing a “shorthand” only if it will be used often. When in doubt, leave it out.
+- Avoid long parameter lists. Aim for four parameters or fewer.
+- For parameter types, favor interfaces over classes (Item 52).
+- Prefer two-element enum types to boolean parameters.
+
+## Item 41: Use overloading judiciously
+
+Just because you can overload methods doesn’t mean you should. You should generally refrain from overloading methods with multiple signatures that have the same number of parameters. In some cases, especially where constructors are involved, it may be impossible to follow this advice. In that case, you should at least avoid situations where the same set of parameters can be passed to different overloadings by the addition of casts. If such a situation cannot be avoided, for example, because you are retrofitting an existing class to implement a new interface, you should ensure that all overloadings behave identically when passed the same parameters. If you fail to do this, programmers will be hard pressed to make effective use of the overloaded method or constructor, and they won’t understand why it doesn’t work.
