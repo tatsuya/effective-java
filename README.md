@@ -43,6 +43,7 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 40: Design method signatures carefully](chapter-7.md#tem-40-design-method-signatures-carefully)
 - [Item 41: Use overloading judiciously](chapter-7.md#item-41-use-overloading-judiciously)
 - [Item 42: Use varargs judiciously](chapter-7.md#item-42-use-varargs-judiciously)
+- [Item 43: Return empty arrays or collections, not nulls](chapter-7.md#item-43-return-empty-arrays-or-collections-not-nulls)
 
 ## [Chapter 8: General Programming](chapter-8.md)
 

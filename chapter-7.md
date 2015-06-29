@@ -23,3 +23,7 @@ Just because you can overload methods doesn’t mean you should. You should gene
 ## Item 42: Use varargs judiciously
 
 Varargs methods are a convenient way to define methods that require a variable number of arguments, but they should not be overused. They can produce confusing results if used inappropriately.
+
+## Item 43: Return empty arrays or collections, not nulls
+
+There is no reason ever to return null from an array- or collection-valued method instead of returning an empty array or collection. The null-return idiom is likely a holdover from the C programming language, in which array lengths are returned separately from actual arrays. In C, there is no advantage to allocating an array if zero is returned as the length.
