@@ -44,6 +44,7 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 41: Use overloading judiciously](chapter-7.md#item-41-use-overloading-judiciously)
 - [Item 42: Use varargs judiciously](chapter-7.md#item-42-use-varargs-judiciously)
 - [Item 43: Return empty arrays or collections, not nulls](chapter-7.md#item-43-return-empty-arrays-or-collections-not-nulls)
+- [Item 44: Write doc comments for all exposed API elements](chapter-7.md#item-44-write-doc-comments-for-all-exposed-api-elements)
 
 ## [Chapter 8: General Programming](chapter-8.md)
 

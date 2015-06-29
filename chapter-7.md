@@ -27,3 +27,7 @@ Varargs methods are a convenient way to define methods that require a variable n
 ## Item 43: Return empty arrays or collections, not nulls
 
 There is no reason ever to return null from an array- or collection-valued method instead of returning an empty array or collection. The null-return idiom is likely a holdover from the C programming language, in which array lengths are returned separately from actual arrays. In C, there is no advantage to allocating an array if zero is returned as the length.
+
+## Item 44: Write doc comments for all exposed API elements
+
+Documentation comments are the best, most effective way to document your API. Their use should be considered mandatory for all exported API elements. Adopt a consistent style that adheres to standard conventions. Remember that arbitrary HTML is permissible within documentation comments and that HTML metacharacters must be escaped.
