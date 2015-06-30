@@ -16,3 +16,7 @@ Here’s a recipe for a high-quality equals method:
 ## Item 9: Always override hashCode when you override equals
 
 You must override `hashCode` in every class that overrides `equals`. Failure to do so will result in a violation of the general contract for `Object.hashCode`, which will prevent your class from functioning properly in conjunction with all hash-based collections, including `HashMap`, `HashSet`, and `Hashtable`.
+
+## Item 10: Always override toString
+
+Whether or not you specify the format, provide programmatic access to all of the information contained in the value returned by `toString`.If you fail to do this, you force programmers who need this information to parse the string. Besides reducing performance and making unnecessary work for programmers, this process is error-prone and results in fragile systems that break if you change the format. By failing to provide accessors, you turn the string format into a de facto API, even if you’ve specified that it’s subject to change.
