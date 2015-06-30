@@ -2,6 +2,10 @@
 
 Summarized version of Effective Java 2nd Edition.
 
+## [Chapter 3: Methods Common to All Objects](chapter-3.md)
+
+- [Item 8: Obey the general contract when overriding equals](chapter-3.md#item-8-obey-the-general-contract-when-overriding-equals)
+
 ## [Chapter 4: Classes and Interfaces](chapter-4.md)
 
 - [Item 13: Minimize the accessibility of classes and members](chapter-4.md#item-13-minimize-the-accessibility-of-classes-and-members)
