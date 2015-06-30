@@ -8,6 +8,7 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 9: Always override hashCode when you override equals](chapter-3.md#item-9-always-override-hashcode-when-you-override-equals)
 - [Item 10: Always override toString](chapter-3.md#item-10-always-override-tostring)
 - [Item 11: Override clone judiciously](chapter-3.md#item-11-override-clone-judiciously)
+- [Item 12: Consider implementing Comparable](chapter-3.md#item-12-consider-implementing-comparable)
 
 ## [Chapter 4: Classes and Interfaces](chapter-4.md)
 
