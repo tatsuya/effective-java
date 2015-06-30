@@ -12,3 +12,7 @@ Here’s a recipe for a high-quality equals method:
 - Always override hashCode when you override equals (Item 9).
 - Don’t try to be too clever.
 - Don’t substitute another type for `Object` in the `equals` declaration.
+
+## Item 9: Always override hashCode when you override equals
+
+You must override `hashCode` in every class that overrides `equals`. Failure to do so will result in a violation of the general contract for `Object.hashCode`, which will prevent your class from functioning properly in conjunction with all hash-based collections, including `HashMap`, `HashSet`, and `Hashtable`.
