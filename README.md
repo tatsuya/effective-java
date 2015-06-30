@@ -2,6 +2,16 @@
 
 Summarized version of Effective Java 2nd Edition.
 
+## [Chapter 2: Creating and Destroying Objects](chapter-2.md)
+
+- [Item 1: Consider static factory methods instead of constructors](chapter-2.md#item-1-consider-static-factory-methods-instead-of-constructors)
+- [Item 2: Consider a builder when faced with many constructor parameters](chapter-2.md#item-2-consider-a-builder-when-faced-with-many-constructor-parameters)
+- [Item 3: Enforce the singleton property with a private constructor or an enum type](chapter-2.md#item-3-enforce-the-singleton-property-with-a-private-constructor-or-an-enum-type)
+- [Item 4: Enforce noninstantiability with a private constructor](chapter-2.md#item-4-enforce-noninstantiability-with-a-private-constructor)
+- [Item 5: Avoid creating unnecessary objects](chapter-2.md#item-5-avoid-creating-unnecessary-objects)
+- [Item 6: Eliminate obsolete object references](chapter-2.md#item-6-eliminate-obsolete-object-references)
+- [Item 7: Avoid finalizers](chapter-2.md#item-7-avoid-finalizers)
+
 ## [Chapter 3: Methods Common to All Objects](chapter-3.md)
 
 - [Item 8: Obey the general contract when overriding equals](chapter-3.md#item-8-obey-the-general-contract-when-overriding-equals)
