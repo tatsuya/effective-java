@@ -1,5 +1,7 @@
 # Chapter 2: Creating and Destroying Objects
 
+This chapter concerns creating and destroying objects: when and how to create them, when and how to avoid creating them, how to ensure they are destroyed in a timely manner, and how to manage any cleanup actions that must precede their destruction.
+
 ## Item 1: Consider static factory methods instead of constructors
 
 One advantage of static factory methods is that, unlike constructors, they have names.
