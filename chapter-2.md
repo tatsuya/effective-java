@@ -23,7 +23,7 @@ A third advantage of static factory methods is that, unlike constructors, they c
 
 For example, the class `java.util.EnumSet`, introduced in release 1.5, has no public constructors, only static factories. They return one of two implementations, depending on the size of the underlying enum type: if it has sixty-four or fewer elements, as most enum types do, the static factories return a `RegularEnumSet` instance, which is backed by a single `long`; if the enum type has sixty-five or more elements, the factories return a `JumboEnumSet` instance, backed by a `long` array.
 
-A fourth advantage of static factory methods is that they reduce the ver- bosity of creating parameterized type instances.
+A fourth advantage of static factory methods is that they reduce the verbosity of creating parameterized type instances.
 
 ```
 Map<String, List<String>> m = new HashMap<String, List<String>>();
@@ -42,6 +42,8 @@ Here are some common names for static factory methods:
 - `newInstance` - Like `getInstance`, except that newInstance guarantees that each instance returned is distinct from all others.
 - `get`*Type*  - Like `getInstance`, but used when the factory method is in a different class. *Type* indicates the type of object returned by the factory method.
 - `new`*Type* - Like `newInstance`, but used when the factory method is in a different class. *Type* indicates the type of object returned by the factory method.
+
+In summary, static factory methods and public constructors both have their uses, and it pays to understand their relative merits. Often static factories are pref- erable, so avoid the reflex to provide public constructors without first considering static factories.
 
 ## Item 2: Consider a builder when faced with many constructor parameters
 
