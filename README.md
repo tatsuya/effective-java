@@ -83,3 +83,5 @@ Summarized version of Effective Java 2nd Edition.
 
 - [Item 57: Use exceptions only for exceptional conditions](chapter-9.md#item-57-use-exceptions-only-for-exceptional-conditions)
 - [Item 58: Use checked exceptions for recoverable conditions and runtime exceptions for programming errors](chapter-9.md#item-58-use-checked-exceptions-for-recoverable-conditions-and-runtime-exceptions-for-programming-errors)
+- [Item 59: Avoid unnecessary use of checked exceptions](chapter-9.md#item-59-avoid-unnecessary-use-of-checked-exceptions)
+
