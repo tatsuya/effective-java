@@ -43,7 +43,7 @@ try {
 
 to this:
 
-```
+```java
 // Invocation with state-testing method and unchecked exception
 if (obj.actionPermitted(args)) {
     obj.action(args);
