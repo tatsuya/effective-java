@@ -71,3 +71,7 @@ This list summarizes the most commonly reused exceptions:
 - `IndexOutOfBoundsException`: Index parameter value is out of range
 - `ConcurrentModificationException`: Concurrent modification of an object has been detected where it is prohibited
 - `UnsupportedOperationException`: Object does not support method
+
+## Item 61: Throw exceptions appropriate to the abstraction
+
+If it isn’t feasible to prevent or to handle exceptions from lower layers, use exception translation, unless the lower-level method happens to guarantee that all of its exceptions are appropriate to the higher level. Chaining provides the best of both worlds: it allows you to throw an appropriate higher-level exception, while capturing the underlying cause for failure analysis (Item 63).
