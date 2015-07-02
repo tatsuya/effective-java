@@ -89,5 +89,16 @@ It is critically important that the exception’s toString method return as much
 
 After an object throws an exception, it is generally desirable that the object still be in a well-defined, usable state, even if the failure occurred in the midst of performing an operation. This is especially true for checked exceptions, from which the caller is expected to recover. Generally speaking, a failed method invocation should leave the object in the state that it was in prior to the invocation. A method with this property is said to be failure atomic.
 
+## Item 65: Don’t ignore exceptions
 
+It is easy to ignore exceptions by surrounding a method invocation with a `try` statement with an empty `catch` block:
 
+```java
+// Empty catch block ignores exception - Highly suspect!
+try {
+    ...
+} catch (SomeException e) {
+}
+```
+
+An empty catch block defeats the purpose of exceptions, which is to force you to handle exceptional conditions. At the very least, the catch block should contain a comment explaining why it is appropriate to ignore the exception.

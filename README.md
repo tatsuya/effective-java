@@ -89,3 +89,4 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 62: Document all exceptions thrown by each method](chapter-9.md#item-62-document-all-exceptions-thrown-by-each-method)
 - [Item 63: Include failure-capture information in detail messages](chapter-9.md#item-63-include-failure-capture-information-in-detail-messages)
 - [Item 64: Strive for failure atomicity](chapter-9.md#item-64-strive-for-failure-atomicity)
+- [Item 65: Don’t ignore exceptions](chapter-9.md#item-65-don’t-ignore-exceptions)
