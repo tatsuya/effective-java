@@ -87,3 +87,4 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 60: Favor the use of standard exceptions](chapter-9.md#item-60-favor-the-use-of-standard-exceptions)
 - [Item 61: Throw exceptions appropriate to the abstraction](chapter-9.md#item-61-throw-exceptions-appropriate-to-the-abstraction)
 - [Item 62: Document all exceptions thrown by each method](chapter-9.md#item-62-document-all-exceptions-thrown-by-each-method)
+- [Item 63: Include failure-capture information in detail messages](chapter-9.md#item-63-include-failure-capture-information-in-detail-messages)

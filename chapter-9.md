@@ -80,3 +80,7 @@ If it isn’t feasible to prevent or to handle exceptions from lower layers, use
 ## Item 62: Document all exceptions thrown by each method
 
 Document every exception that can be thrown by each method that you write. This is true for unchecked as well as checked exceptions, and for abstract as well as concrete methods. Provide individual `throws` clauses for each checked exception and do not provide `throws` clauses for unchecked exceptions. If you fail to document the exceptions that your methods can throw, it will be difficult or impossible for others to make effective use of your classes and interfaces.
+
+## Item 63: Include failure-capture information in detail messages
+
+It is critically important that the exception’s toString method return as much information as possible concerning the cause of the failure. In other words, the detail message of an exception should capture the failure for subsequent analysis.
