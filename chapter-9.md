@@ -84,3 +84,10 @@ Document every exception that can be thrown by each method that you write. This 
 ## Item 63: Include failure-capture information in detail messages
 
 It is critically important that the exception’s toString method return as much information as possible concerning the cause of the failure. In other words, the detail message of an exception should capture the failure for subsequent analysis.
+
+## Item 64: Strive for failure atomicity
+
+After an object throws an exception, it is generally desirable that the object still be in a well-defined, usable state, even if the failure occurred in the midst of performing an operation. This is especially true for checked exceptions, from which the caller is expected to recover. Generally speaking, a failed method invocation should leave the object in the state that it was in prior to the invocation. A method with this property is said to be failure atomic.
+
+
+
