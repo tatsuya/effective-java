@@ -61,4 +61,13 @@ obj.action(args);
 
 If you suspect that the simple calling sequence will be the norm, then this API refactoring may be appropriate.
 
+## Item 60: Favor the use of standard exceptions
 
+This list summarizes the most commonly reused exceptions:
+
+- `IllegalArgumentException`: Non-null parameter value is inappropriate
+- `IllegalStateException`: Object state is inappropriate for method invocation
+- `NullPointerException`: Parameter value is null where prohibited
+- `IndexOutOfBoundsException`: Index parameter value is out of range
+- `ConcurrentModificationException`: Concurrent modification of an object has been detected where it is prohibited
+- `UnsupportedOperationException`: Object does not support method
