@@ -95,3 +95,4 @@ Summarized version of Effective Java 2nd Edition.
 
 - [Item 66: Synchronize access to shared mutable data](chapter-10.md#item-66-synchronize-access-to-shared-mutable-data)
 - [Item 67: Avoid excessive synchronization](chapter-10.md#item-67-avoid-excessive-synchronization)
+- [Item 68: Prefer executors and tasks to threads](chapter-10.md#item-68-prefer-executors-and-tasks-to-threads)
