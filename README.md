@@ -90,3 +90,7 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 63: Include failure-capture information in detail messages](chapter-9.md#item-63-include-failure-capture-information-in-detail-messages)
 - [Item 64: Strive for failure atomicity](chapter-9.md#item-64-strive-for-failure-atomicity)
 - [Item 65: Don’t ignore exceptions](chapter-9.md#item-65-don’t-ignore-exceptions)
+
+## [Chapter 10: Concurrency](chapter-10.md)
+
+- [Item 66: Synchronize access to shared mutable data](chapter-10.md#item-66-synchronize-access-to-shared-mutable-data)
