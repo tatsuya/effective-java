@@ -98,3 +98,4 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 68: Prefer executors and tasks to threads](chapter-10.md#item-68-prefer-executors-and-tasks-to-threads)
 - [Item 69: Prefer concurrency utilities to wait and notify](chapter-10.md#item-69-prefer-concurrency-utilities-to-wait-and-notify)
 - [Item 70: Document thread safety](chapter-10.md#item-70-document-thread-safety)
+- [Item 71: Use lazy initialization judiciously](chapter-10.md#item-71-use-lazy-initialization-judiciously)
