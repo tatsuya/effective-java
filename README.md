@@ -97,3 +97,4 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 67: Avoid excessive synchronization](chapter-10.md#item-67-avoid-excessive-synchronization)
 - [Item 68: Prefer executors and tasks to threads](chapter-10.md#item-68-prefer-executors-and-tasks-to-threads)
 - [Item 69: Prefer concurrency utilities to wait and notify](chapter-10.md#item-69-prefer-concurrency-utilities-to-wait-and-notify)
+- [Item 70: Document thread safety](chapter-10.md#item-70-document-thread-safety)
