@@ -103,3 +103,5 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 73: Avoid thread groups](chapter-10.md#item-73-avoid-thread-groups)
 
 ## [Chapter 11: Serialization](chapter-11.md)
+
+- [Item 74: Implement Serializable judiciously](chapter-11.md#item-74-implement-serializable-judiciously)
