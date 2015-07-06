@@ -100,3 +100,4 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 70: Document thread safety](chapter-10.md#item-70-document-thread-safety)
 - [Item 71: Use lazy initialization judiciously](chapter-10.md#item-71-use-lazy-initialization-judiciously)
 - [Item 72: Don’t depend on the thread scheduler](chapter-10.md#item-72-don’t-depend-on-the-thread-scheduler)
+- [Item 73: Avoid thread groups](chapter-10.md#item-73-avoid-thread-groups)

@@ -6,7 +6,7 @@ When multiple threads share mutable data, each thread that reads or writes the d
 
 ## Item 67: Avoid excessive synchronization
 
-To avoid deadlock and data corruption, never call an alien method from within a synchronized region. More generally, try to limit the amount of work that you do from within synchronized regions. When you are designing a mutable class, think about whether it should do its own synchronization. In the modern multicore era, it is more important than ever not to synchronize excessively. Synchronize your class internally only if there is a good reason to do so, and document your decision clearly (Item 70).
+To avoid deadlock and data corruption, never call an alien method from within a synchronized region. More generally, try to limit the amount of work that you do from within synchronized regions. When you are designing a mutable class, think about whether it should do its own synchronization. In the modern multicore era, it is more important than ever not to synchronize excessively. Synchronize your class internally only if there is a good reason to do so, and document your decision clearly ([Item 70](chapter-10.md#item-70-document-thread-safety)).
 
 ## Item 68: Prefer executors and tasks to threads
 
@@ -27,3 +27,7 @@ You should initialize most fields normally, not lazily. If you must initialize a
 ## Item 72: Don’t depend on the thread scheduler
 
 Do not depend on the thread scheduler for the correctness of your program. The resulting program will be neither robust nor portable. As a corollary, do not rely on `Thread.yield` or thread priorities. These facilities are merely hints to the scheduler. Thread priorities may be used sparingly to improve the quality of service of an already working program, but they should never be used to “fix” a program that barely works.
+
+## Item 73: Avoid thread groups
+
+Thread groups don’t provide much in the way of useful functionality, and much of the functionality they do provide is flawed. Thread groups are best viewed as an unsuccessful experiment, and you should simply ignore their existence. If you design a class that deals with logical groups of threads, you should probably use thread pool executors ([Item 68](chapter-10.md#item-68-prefer-executors-and-tasks-to-threads)).
