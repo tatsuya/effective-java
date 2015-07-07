@@ -7,3 +7,7 @@ The ease of implementing Serializable is specious. Unless a class is to be throw
 ## Item 75: Consider using a custom serialized form
 
 When you have decided that a class should be serializable ([Item 74](chapter-11.md#item-74-implement-serializable-judiciously)), think hard about what the serialized form should be. Use the default serialized form only if it is a reasonable description of the logical state of the object; otherwise design a custom serialized form that aptly describes the object. You should allocate as much time to designing the serialized form of a class as you allocate to designing its exported methods ([Item 40](chapter-7.md#item-40-design-method-signatures-carefully)). Just as you cannot eliminate exported methods from future versions, you cannot eliminate fields from the serialized form; they must be preserved forever to ensure serialization compatibility. Choosing the wrong serialized form can have a permanent, negative impact on the complexity and performance of a class.
+
+## Item 76: Write readObject methods defensively
+
+Anytime you write a readObject method, adopt the mind-set that you are writing a public constructor that must produce a valid instance regard- less of what byte stream it is given. Do not assume that the byte stream represents an actual serialized instance. While the examples in this item concern a class that uses the default serialized form, all of the issues that were raised apply equally to classes with custom serialized forms.
