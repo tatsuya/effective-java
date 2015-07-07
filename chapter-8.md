@@ -39,7 +39,7 @@ Don’t use the string concatenation operator to combine more than a few strings
 
 ## Item 52: Refer to objects by their interfaces
 
-If appropriate interface types exist, then parameters, return values, variables, and fields should all be declared using interface types. If you get into the habit of using interfaces as types, your program will be much more flexible.
+[Item 40](chapter-7.md#item-40-design-method-signatures-carefully) contains the advice that you should use interfaces rather than classes as parameter types. More generally, you should favor the use of interfaces rather than classes to refer to objects. If appropriate interface types exist, then parameters, return values, variables, and fields should all be declared using interface types. If you get into the habit of using interfaces as types, your program will be much more flexible.
 
 ## Item 53: Prefer interfaces to reflection
 
