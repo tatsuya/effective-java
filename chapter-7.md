@@ -10,10 +10,10 @@ If a class has mutable components that it gets from or returns to its clients, t
 
 ## Item 40: Design method signatures carefully
 
-- Choose method names carefully. Names should always obey the standard naming conventions ([Item 56](chapter-8.md#item-56-adhere-to-generally-accepted-naming-conventions))).
+- Choose method names carefully. Names should always obey the standard naming conventions ([Item 56](chapter-8.md#item-56-adhere-to-generally-accepted-naming-conventions)).
 - Don’t go overboard in providing convenience methods. Consider providing a “shorthand” only if it will be used often. When in doubt, leave it out.
 - Avoid long parameter lists. Aim for four parameters or fewer.
-- For parameter types, favor interfaces over classes (Item 52).
+- For parameter types, favor interfaces over classes ([Item 52](chapter-8.md#item-52-refer-to-objects-by-their-interfaces)).
 - Prefer two-element enum types to boolean parameters.
 
 ## Item 41: Use overloading judiciously
