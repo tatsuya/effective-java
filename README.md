@@ -107,3 +107,4 @@ Summarized version of Effective Java 2nd Edition.
 - [Item 74: Implement Serializable judiciously](chapter-11.md#item-74-implement-serializable-judiciously)
 - [Item 75: Consider using a custom serialized form](chapter-11.md#item-75-consider-using-a-custom-serialized-form)
 - [Item 76: Write readObject methods defensively](chapter-11.md#item-76-write-readobject-methods-defensively)
+- [Item 77: For instance control, prefer enum types to readResolve](chapter-11.md#item-77-for-instance-control-prefer-enum-types-to-readresolve)

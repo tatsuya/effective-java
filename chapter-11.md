@@ -11,3 +11,7 @@ When you have decided that a class should be serializable ([Item 74](chapter-11.
 ## Item 76: Write readObject methods defensively
 
 Anytime you write a readObject method, adopt the mind-set that you are writing a public constructor that must produce a valid instance regard- less of what byte stream it is given. Do not assume that the byte stream represents an actual serialized instance. While the examples in this item concern a class that uses the default serialized form, all of the issues that were raised apply equally to classes with custom serialized forms.
+
+## Item 77: For instance control, prefer enum types to readResolve
+
+You should use enum types to enforce instance control invariants wherever possible. If this is not possible and you need a class to be both serializable and instance-controlled, you must provide a `readResolve` method and ensure that all of the class’s instance fields are either primitive or transient.
