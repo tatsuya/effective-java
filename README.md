@@ -105,3 +105,4 @@ Summarized version of Effective Java 2nd Edition.
 ## [Chapter 11: Serialization](chapter-11.md)
 
 - [Item 74: Implement Serializable judiciously](chapter-11.md#item-74-implement-serializable-judiciously)
+- [Item 75: Consider using a custom serialized form](chapter-11.md#item-75-consider-using-a-custom-serialized-form)
