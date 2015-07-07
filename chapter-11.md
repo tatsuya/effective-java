@@ -15,3 +15,7 @@ Anytime you write a readObject method, adopt the mind-set that you are writing a
 ## Item 77: For instance control, prefer enum types to readResolve
 
 You should use enum types to enforce instance control invariants wherever possible. If this is not possible and you need a class to be both serializable and instance-controlled, you must provide a `readResolve` method and ensure that all of the class’s instance fields are either primitive or transient.
+
+## Item 78: Consider serialization proxies instead of serialized instances
+
+Consider the serialization proxy pattern whenever you find yourself having to write a `readObject` or `writeObject` method on a class that is not extendable by its clients. This pattern is perhaps the easiest way to robustly serialize objects with nontrivial invariants.
