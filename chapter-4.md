@@ -4,7 +4,7 @@ Classes and interfaces lie at the heart of the Java programming language. They a
 
 ## Item 13: Minimize the accessibility of classes and members
 
-Information hiding or encapsulation, is one of the fundamental tenets of software design. You should always reduce accessibility as much as possible. After carefully designing a minimal public API, you should prevent any stray classes, interfaces, or members from becoming a part of the API. With the exception of public static final fields, public classes should have no public fields. Ensure that objects referenced by public static final fields are immutable.
+Information hiding or encapsulation, is one of the fundamental tenets of software design. You should always reduce accessibility as much as possible. After carefully designing a minimal public API, you should prevent any stray classes, interfaces, or members from becoming a part of the API. With the exception of public static final fields, public classes should have no public fields. Ensure that objects referenced by public static final fields are immutable ([Item 15](chapter-4.md#item-15-minimize-mutability)).
 
 ## Item 14: In public classes, use accessor methods, not public fields
 
