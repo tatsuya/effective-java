@@ -1,5 +1,7 @@
 # Chapter 4: Classes and Interfaces
 
+Classes and interfaces lie at the heart of the Java programming language. They are its basic units of abstraction. The language provides many powerful ele- ments that you can use to design classes and interfaces. This chapter contains guidelines to help you make the best use of these elements so that your classes and interfaces are usable, robust, and flexible.
+
 ## Item 13: Minimize the accessibility of classes and members
 
 - This concept, known as information hiding or encapsulation, is one of the fundamental tenets of software design.
