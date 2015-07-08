@@ -8,7 +8,7 @@ Classes and interfaces lie at the heart of the Java programming language. They a
 
 ## Item 14: In public classes, use accessor methods, not public fields
 
-Public classes should never expose mutable fields. It is less harmful, though still questionable, for public classes to expose immutable fields. It is, however, sometimes desirable for package-private or private nested classes to expose fields, whether mutable or immutable.
+Public classes should never expose mutable fields. It is less harmful, though still questionable, for public classes to expose immutable fields. It is, however, sometimes desirable for package-private or private nested classes to expose fields, whether mutable or immutable, because this approach generates less visual clutter than the accessor-method approach, both in the class definition and in the client code that uses it.
 
 ## Item 15: Minimize mutability
 
