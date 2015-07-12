@@ -9,7 +9,7 @@ Here’s a recipe for a high-quality equals method:
 - Cast the argument to the correct type. Because this cast was preceded by an `instanceof` test, it is guaranteed to succeed.
 - For each “significant” field in the class, check if that field of the argument matches the corresponding field of this object. If all these tests succeed, return `true`; otherwise, return `false`.
 - When you are finished writing your `equals` method, ask yourself three questions: Is it symmetric? Is it transitive? Is it consistent?
-- Always override hashCode when you override equals (Item 9).
+- Always override hashCode when you override equals ([Item 9](chapter-3.md#item-9-always-override-hashcode-when-you-override-equals)).
 - Don’t try to be too clever.
 - Don’t substitute another type for `Object` in the `equals` declaration.
 
