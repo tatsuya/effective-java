@@ -77,14 +77,25 @@ public class NutritionFacts {
             this.servings    = servings;
         }
 
-        public Builder calories(int val)
-            { calories = val;      return this; }
-        public Builder fat(int val)
-            { fat = val;           return this; }
-        public Builder carbohydrate(int val)
-            { carbohydrate = val;  return this; }
-        public Builder sodium(int val)
-            { sodium = val;        return this; }
+        public Builder calories(int val) {
+            calories = val;
+            return this;
+        }
+
+        public Builder fat(int val) {
+            fat = val;
+            return this;
+        }
+
+        public Builder carbohydrate(int val) {
+            carbohydrate = val;
+            return this;
+        }
+
+        public Builder sodium(int val) {
+            sodium = val;
+            return this;
+        }
 
         public NutritionFacts build() {
             return new NutritionFacts(this);
@@ -100,6 +111,13 @@ public class NutritionFacts {
         carbohydrate = builder.carbohydrate;
     }
 }
+```
+
+Note that `NutritionFacts` is immutable, and that all parameter default values are in a single location. The builder’s setter methods return the builder itself so that invocations can be chained. Here’s how the client code looks:
+
+```java
+NutritionFacts cocaCola = new NutritionFacts.Builder(240, 8).
+    calories(100).sodium(35).carbohydrate(27).build();
 ```
 
 ## Item 3: Enforce the singleton property with a private constructor or an enum type
