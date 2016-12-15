@@ -65,17 +65,18 @@ If you suspect that the simple calling sequence will be the norm, then this API 
 
 This list summarizes the most commonly reused exceptions:
 
-- `IllegalArgumentException`: Non-null parameter value is inappropriate
-- `IllegalStateException`: Object state is inappropriate for method invocation
-- `NullPointerException`: Parameter value is null where prohibited
-- `IndexOutOfBoundsException`: Index parameter value is out of range
-- `ConcurrentModificationException`: Concurrent modification of an object has been detected where it is prohibited
-- `UnsupportedOperationException`: Object does not support method
+- `IllegalArgumentException`: Non-null parameter value is inappropriate.
+- `IllegalStateException`: Object state is inappropriate for method invocation. For example, this would be the exception to throw if the caller attempted to use some object before it has been properly initialized.
+- `NullPointerException`: Parameter value is null where prohibited.
+- `IndexOutOfBoundsException`: Index parameter value is out of range.
+- `ConcurrentModificationException`: Concurrent modification of an object has been detected where it is prohibited.
+- `UnsupportedOperationException`: Object does not support method.
+
+Arguably, all erroneous method invocations boil down to an illegal argument or illegal state, but other exceptions are standardly used for certain kinds of illegal arguments and states. If a caller passes `null` in some parameter for which `null` values are prohibited, convention dictates that `NullPointerException` be thrown rather than `IllegalArgumentException`. Similarly, if a caller passes an out-of-range value in a parameter representing an index into a sequence, `IndexOutOfBoundsException` should be thrown rather than `IllegalArgumentException`.
 
 ## Item 61: Throw exceptions appropriate to the abstraction
 
 If it isn’t feasible to prevent or to handle exceptions from lower layers, use exception translation, unless the lower-level method happens to guarantee that all of its exceptions are appropriate to the higher level. Chaining provides the best of both worlds: it allows you to throw an appropriate higher-level exception, while capturing the underlying cause for failure analysis (Item 63).
-
 
 ## Item 62: Document all exceptions thrown by each method
 
