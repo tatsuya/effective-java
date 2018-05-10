@@ -43,7 +43,7 @@ Here are some common names for static factory methods:
 - `get`*Type*  - Like `getInstance`, but used when the factory method is in a different class. *Type* indicates the type of object returned by the factory method.
 - `new`*Type* - Like `newInstance`, but used when the factory method is in a different class. *Type* indicates the type of object returned by the factory method.
 
-In summary, static factory methods and public constructors both have their uses, and it pays to understand their relative merits. Often static factories are pref- erable, so avoid the reflex to provide public constructors without first considering static factories.
+In summary, static factory methods and public constructors both have their uses, and it pays to understand their relative merits. Often static factories are preferable, so avoid the reflex to provide public constructors without first considering static factories.
 
 ## Item 2: Consider a builder when faced with many constructor parameters
 
